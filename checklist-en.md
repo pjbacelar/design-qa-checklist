@@ -3,7 +3,7 @@
 * [ ] Schedule individual timeframes for each developer based on the amount of features that will be evaluated
 
 ## 2. Design QA Session:
-For each feature evaluate the following aspects:
+* For each feature evaluate the following aspects:
 * [ ] Color Palette Consistency
 * [ ] Contrast
 * [ ] Typography
@@ -33,11 +33,18 @@ For each feature evaluate the following aspects:
     * [ ] Image Size
         * Try to find the right file size. If the image file is too small, it can be pixelated and if it's too heavy the loading time can be excruciating for the user as well.
 * [ ] Responsiveness
-    * E.g. Again those are the most common platforms for web applications, but remember to check all the platforms your software should be working with and add to this list.
+    * Again those are the most common platforms for web applications, but remember to check all the platforms your software should be working with and add to this list.
     * [ ] Cellphones
     * [ ] Tablets
     * [ ] Old Desktops/Notebooks
     * [ ] HD Desktops/Notebooks
+* [ ] Error States & Warnings
+	* There are a lot of possible error states & warnings for user inputted data and system unexpected behaviors. Below are the most common ones:
+	* [ ] Wrong formatted data
+		* E.g. Letters that can be inputted in date fields
+  	* [ ] Lack of feedback about the error
+		* E.g. The application had problems connecting to the server and the data inputted by the user was lost. It's import to explain what happened and how to solve.
+	* [ ] Required fields
 
 ## 3. After the Meeting:
 * [ ] Take note of all the errors and inconsistencies that were found during the QA session and classify them as:
